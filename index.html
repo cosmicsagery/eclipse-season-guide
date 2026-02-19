@@ -394,9 +394,26 @@
             margin: 2.5rem 0 1rem;
         }
 
-        .cta-box h3 { color: var(--sand-light); margin-top: 0; }
         .cta-box p { color: var(--sand-light); }
-        .cta-box .price { font-size: 0.85rem; opacity: 0.8; margin-top: 0.5rem; }
+        .cta-box .price { font-size: 0.85rem; opacity: 0.8; margin-top: 1rem; }
+
+        .cta-button {
+            display: inline-block;
+            font-family: 'Stylebender', Georgia, serif;
+            font-size: 1.4rem;
+            color: var(--sage);
+            background: var(--sand-light);
+            padding: 0.8rem 2.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            letter-spacing: 0.03em;
+            transition: opacity 0.3s, transform 0.2s;
+        }
+
+        .cta-button:hover {
+            opacity: 0.9;
+            transform: translateY(-1px);
+        }
 
         table {
             width: 100%;
@@ -869,8 +886,8 @@
                 </div>
 
                 <div class="cta-box">
-                    <h3>Want the full teachings, guided meditations, and live community support?</h3>
-                    <p>Join Awaken Academy</p>
+                    <p style="font-size:0.85rem; text-transform:uppercase; letter-spacing:0.12em; margin-bottom:1rem; opacity:0.85;">Want the full teachings, guided meditations, and live community support?</p>
+                    <a href="https://awaken-academy.pages.dev/" target="_blank" class="cta-button">Join Awaken Academy</a>
                     <p class="price">$87/month &middot; No contract &middot; Second month free</p>
                 </div>
             </div>
